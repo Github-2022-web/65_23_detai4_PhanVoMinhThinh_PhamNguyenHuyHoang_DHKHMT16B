@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐĂNG KÝ</title>
+    <link rel="stylesheet" href="./CSS/signup.css">
+    <script src="./JS/jquery-3.6.0.min.js"></script>
+    <script src="./JS/bootstrap.min.js"></script>
+    <script src="./JS/index.js"></script>
+</head>
+<body>
+<form action="/action_page.php">
+    <div class="container" role="dialog" id="dangky">
+        <div class="modal-dialog" style="margin-top: 20px;">
+            <div class="modal-content">
+            <h1>ĐĂNG KÝ</h1>
+            <p>Vui lòng điền thông tin để tạo tài khoản.</p>
+            <hr>
+            <div class="modal-header">
+                <h3 class="text-left">THÔNG TIN CÁ NHÂN</h3>
+            </div>
+            <label for="Name"><b>Họ tên</b></label>
+            <b style="color: red;">*</b>
+            <div class="col-xs-9">
+                <input type="text" placeholder="Nhập Họ và tên" name="Name" id="Name" required>
+                <span class="text-danger" style="color: red;" id="tbName"></span>
+            </div>
+
+            <label for="DC"><b>Địa chỉ nhà</b></label>
+            <b style="color: red;">*</b>
+            <div class="col-xs-9">
+                <input type="text" placeholder="Nhập Địa chỉ nhà" name="DC" id="DC" required>
+                <span class="text-danger" style="color: red;" id="tbDC"></span>
+            </div>
+            
+            <label for="SDT"><b>Số điện thoại</b></label>
+            <b style="color: red;">*</b>
+            <div class="col-xs-9">
+                <input type="text" placeholder="Nhập Số điện thoại" name="SDT" id="SDT" required>
+                <span class="text-danger" style="color: red;" id="tbSDT"></span>
+            </div>
+
+            <label for="email"><b>Email</b></label>
+            <b style="color: red;">*</b>
+            <div class="col-xs-9">
+                <input type="text" placeholder="Nhập Email" name="email" id="email" required>
+                <span class="text-danger" style="color: red;" id="tbemail"></span>
+            </div>
+            
+            <h3>THÔNG TIN TÀI KHOẢN</h3>
+
+            <label for="TK"><b>Tên tài khoản</b></label>
+            <b style="color: red;">*</b>
+            <div class="col-xs-9">
+                <input type="text" placeholder="Nhập Tên tài khoản" name="TK" id="TK" required>
+                <span class="text-danger" style="color: red;" id="tbTK"></span>
+            </div>
+
+            <label for="psw"><b>Mật khẩu</b></label>
+            <b style="color: red;">*</b>
+            <div class="col-xs-9">
+                <input type="password" placeholder="Nhập Mật Khẩu" name="psw" id="psw" required>
+                <span class="text-danger" style="color: red;" id="tbpsw"></span>
+            </div>
+            
+            <label for="psw-repeat" ><b>Nhập lại mật khẩu</b></label>
+            <b style="color: red;">*</b>
+            <div class="col-xs-9">
+                <input type="password" placeholder="Nhập Lại Mật Khẩu" name="psw-repeat" id="psw-repeat" required>
+                <span class="text-danger" style="color: red;" id="tbpsw-repeat"></span>
+            </div>
+            
+            <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Bạn đồng ý với các <a href="#" style="color:dodgerblue">Điều khoản & Quyền riêng tư</a> của chúng tôi.
+            </label>
+
+            <button type="submit" class="registerbtn" id="DK">Đăng ký</button>
+            
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

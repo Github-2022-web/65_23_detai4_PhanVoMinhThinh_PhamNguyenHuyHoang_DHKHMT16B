@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/trangchu.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/login.css">
+    <title>Trang Chủ</title>
+    <script src="./JS/jquery-3.6.0.min.js"></script>
+    <script src="./JS/bootstrap.min.js"></script>
+    <script src="./JS/indexdangnhap.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-2 menu">
+                    <img src="./IMG/Screenshot 2022-04-20 213839.png"><h1>GUYS</h1>
+                </div>
+                <div class="col-9" style="font-size: large;">
+                    <nav class="navbar-collapse">
+                        <ul class="navbar-nav nav">
+                            <li class="navbar-item"><a class="navbar-link" href="#" title="Đăng nhập tài khoản" id="dn">Đăng nhập</a></li>
+                            <li class="navbar-item"><a class="navbar-link" href="signup.html" title="Đăng ký tài khoản" id="myBtn">Đăng ký</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 title">
+                <h2>GUYS - Nâng Cấp Gu Thời Trang Của Bạn</h2>
+            </div>
+            <div class="col-2th">
+                <div class="card">
+                    <div class="image">
+                        <img src="./IMG/mau1.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2th">
+                <div class="card">
+                    <div class="image">
+                        <img src="./IMG/mau2.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2th">
+                <div class="card">
+                    <div class="image">
+                        <img src="./IMG/mau3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2th">
+                <div class="card">
+                    <div class="image">
+                        <img src="./IMG/mau4.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 title">
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="noi-dung contact">
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br />
+                            GUYS - Thương hiệu quốc dân.<br />
+                            📌Hệ thống cửa hàng<br />
+                            TP. Hồ Chí Minh<br />
+                            - 585/2C Sư Vạn Hạnh, Phường 7, Quận 11, TP. Hồ Chí Minh<br />
+                            - 300 Phan Văn Trị, Phường 5, Quận Gò Vấp, TP. Hồ Chí Minh<br />
+                            TP. Hà Nội<br />
+                            - 66 Phường Nguyễn Thái Học, Điện Bàn, Ba Đình, Hà Nội<br />
+                            ☎️ Hotline: 0987654321<br />
+                            📧 Email: guys@gmail.com.vn
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" role="dialog" id="myModal">
+        <div class="modal-dialog" style="margin-top: 20px;">
+            <div class="modal-content">
+                <h2>Đăng Nhập</h2>
+                <form action="/action_page.php" method="post">
+                    <div class="container">
+                        <label for="uname"><b>Tên tài khoản</b></label>
+                        <input type="text" placeholder="Nhập Tên tài khoản" name="uname" required>
+                        <label for="psw"><b>Mật Khẩu</b></label>
+                        <input type="password" placeholder="Nhập Mật khẩu" name="psw" required>
+                        <button type="submit"><a href="trangtiep.html" style="color: #f1f1f1;">Đăng Nhập</a></button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Nhớ mật khảu
+                        </label>
+                    </div>
+                    <div class="container" style="background-color:#f1f1f1">
+                        <p>Bạn chưa có tài khoản? <a href="signup.html">Đăng ký ngay</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
